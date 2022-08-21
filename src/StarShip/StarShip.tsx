@@ -12,9 +12,8 @@ const StarShip = () => {
     const getStarShips = (url: string) =>
         axios
             .get(url)
-            .then((response) => response)
-            .then((res) => {
-                const data = res.data;
+            .then((response) => {
+                const data = response.data;
                 setStarShips(data);
             })
             .catch((err) => console.log(err));
