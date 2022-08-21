@@ -7,12 +7,14 @@
     ],
     "plugins": ["react", "@typescript-eslint", "prettier"],
     "env": {
-        "browser": true
+        "browser": true,
+        "node": true
     },
     "rules": {
         "react/react-in-jsx-scope": "off",
         "prettier/prettier": ["error", { "endOfLine": "auto" }],
-        "@typescript-eslint/no-explicit-any": ["off"]
+        "@typescript-eslint/no-explicit-any": ["off"],
+        "@typescript-eslint/no-var-requires": 0
     },
     "settings": {
         "react": {
