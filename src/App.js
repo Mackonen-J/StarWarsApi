@@ -1,4 +1,4 @@
-import StarShip from "./StarShip/StarShip";
+import StarShip from './StarShip/StarShip';
 
 const App = () => <StarShip />;
 
