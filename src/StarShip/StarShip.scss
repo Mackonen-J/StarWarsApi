@@ -1,0 +1,22 @@
+.Starship {
+    padding: 4px 12px;
+    &_container {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    &_name {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    &_model {
+        font-style: italic;
+        margin-right: 10px;
+    }
+
+    &_passengers {
+        color: #444;
+        font-weight: bold;
+    }
+}
